@@ -17,7 +17,7 @@ npm run dev
 
 
 4. **Open the application:**
-Once the development server is running, open your web browser and navigate to `http://localhost:3000` to view the application.
+Once the development server is running, open your web browser and navigate to `http://localhost:5173/` to view the application.
 
 ## Usage
 
