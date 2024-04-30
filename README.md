@@ -1,8 +1,32 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple weather application built using React and Vite. It allows users to search for a city and view its current weather information along with a 6-day forecast.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To set up and run the application locally, follow these steps:
+
+1. **Clone the repository:**
+git clone <repository-url>
+
+2. **Install dependencies:**
+npm install
+
+3. **Start the development server:**
+npm run dev
+
+
+4. **Open the application:**
+Once the development server is running, open your web browser and navigate to `http://localhost:3000` to view the application.
+
+## Usage
+
+- Enter the name of a city in the search bar and press Enter or click the search icon to view its current weather information.
+- The main weather card displays the current weather conditions including temperature, wind speed, humidity, and heat index.
+- Below the main card, there are mini cards representing the 6-day forecast for the selected city.
+
+## Technologies Used
+
+- React
+- Vite
+- Axios (for fetching weather data)
